@@ -3,9 +3,8 @@
 #include <string.h>
 
 #define MAX_LINE 1000
-#define THRESHOLD 5   // You can change this
+#define THRESHOLD 5   
 
-// Function to count tokens in a line
 int countTokens(char line[]) {
     int count = 0, inToken = 0;
     int i;
